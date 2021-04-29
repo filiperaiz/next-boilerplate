@@ -4,9 +4,7 @@ type Props = {
   title: string
 }
 
-const foo = 'blah'
-
-export default function Home({ title = "React" }: Props) {
+export default function Home({ title = 'React' }: Props) {
   return (
     <div>
       <Head>
@@ -15,10 +13,8 @@ export default function Home({ title = "React" }: Props) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main >
-        <h1>
-        {title}
-        </h1>
+      <main>
+        <h1>{title}</h1>
       </main>
     </div>
   )
